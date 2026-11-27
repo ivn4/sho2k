@@ -13,7 +13,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Carrega os LUTs quando o app inicia.
+        FilterService.shared.loadLUT(named: "filtro1")
+        FilterService.shared.loadLUT(named: "filtro2")
+        // Começa com o filtro1 ativo.
+        FilterService.shared.setActivePreset("filtro1")
         return true
     }
 

@@ -21,7 +21,7 @@
         {
           "target": "sho2k",
           "exclusions": [
-            "Info.plist",
+            "App/Info.plist",
           ],
         },
       ],
@@ -50,8 +50,10 @@
         "CODE_SIGN_STYLE": "Automatic",
         "CURRENT_PROJECT_VERSION": "1",
         "DEVELOPMENT_TEAM": "X5D5SAQ434",
-        "GENERATE_INFOPLIST_FILE": "YES",
-        "INFOPLIST_FILE": "sho2k/Info.plist",
+        "GENERATE_INFOPLIST_FILE": "NO",
+        "INFOPLIST_FILE": "sho2k/App/Info.plist",
+        "INFOPLIST_KEY_NSCameraUsageDescription": "Permita o acesso à câmera",
+        "INFOPLIST_KEY_NSPhotoLibraryUsageDescription": "Permita o acesso à galeria",
         "INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents": "YES",
         "INFOPLIST_KEY_UILaunchStoryboardName": "LaunchScreen",
         "INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad": "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight",
